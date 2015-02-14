@@ -391,12 +391,6 @@
                                     <action selector="clickDigit:" destination="1S9-wX-ATM" eventType="touchUpInside" id="scL-cM-8Y2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rh3-i2-o9f">
-                                <rect key="frame" x="167" y="549" width="50" height="50"/>
-                                <state key="normal" title="i">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ul8-07-2es">
                                 <rect key="frame" x="11" y="549" width="50" height="50"/>
                                 <state key="normal" title=".">
@@ -429,6 +423,15 @@
                                 </state>
                                 <connections>
                                     <action selector="clickRightBracket" destination="1S9-wX-ATM" eventType="touchUpInside" id="nxv-IX-Nkh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rnt-aA-6MS">
+                                <rect key="frame" x="167" y="549" width="50" height="50"/>
+                                <state key="normal" title="🐶">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dog" destination="1S9-wX-ATM" eventType="touchUpInside" id="U82-UU-4AU"/>
                                 </connections>
                             </button>
                         </subviews>

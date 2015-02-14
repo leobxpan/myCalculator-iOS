@@ -217,6 +217,10 @@ static char displayOp;          //op that is to be displayed on the screen.
     self.bracketString = ')';
     [self bracketJudge];
 }
+
+- (IBAction)dog {
+    _display.text = @"我就是来卖个萌🐶";
+}
 -(void)judge{
     if(displayOp == '='){
         if(self.bracketString == ')'){

@@ -22,5 +22,6 @@
 - (IBAction)clickDivide;
 - (IBAction)clickLeftBracket;
 - (IBAction)clickRightBracket;
+- (IBAction)dog;
 
 @end
