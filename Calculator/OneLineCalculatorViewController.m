@@ -198,7 +198,8 @@ static char displayOp;          //op that is to be displayed on the screen.
     _inBracketCalculator = [[Calculator alloc]init];
     _inBracketCalculator.op = '+';
     self.bracketString = '(';
-    if(![self.currentTitle doubleValue]){
+    NSRange range = [self.currentTitle rangeOfString:@"("];
+    if((![self.currentTitle doubleValue]) && !(range.length)){
         self.currentTitle = @"(";
         _display.text = self.currentTitle;
     }else{

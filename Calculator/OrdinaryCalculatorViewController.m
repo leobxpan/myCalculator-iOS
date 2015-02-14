@@ -121,6 +121,10 @@ static int avoidPowBug = 0;     //set to avoid bugs in pow when double-clicking 
     [self judge];
     [_myCalculator pow];
 }
+
+- (IBAction)pig {
+    _display.text = @"我就是来卖个萌🐷";
+}
 -(void)judge{
     if(_myCalculator.op == '/'){
         if(avoidBug > 1){

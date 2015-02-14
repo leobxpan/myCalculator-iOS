@@ -22,6 +22,7 @@
 -(IBAction)dot;
 - (IBAction)sqrt;
 - (IBAction)pow;
+- (IBAction)pig;
 
 @end
 
