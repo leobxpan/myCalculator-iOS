@@ -10,6 +10,8 @@
 	<string>Calculator</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>C9DBFC9E4581C0FAD79F2D88683BD245CD8E530E</key>
+		<string>https://github.com/CaesarPan/myCalculator-iOS.git</string>
 		<key>D04EA92893D1085C4168AA70027131ADED4B5CD8</key>
 		<string>https://github.com/CaesarPan/Calculator.git</string>
 	</dict>
@@ -17,6 +19,8 @@
 	<string>Calculator.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>C9DBFC9E4581C0FAD79F2D88683BD245CD8E530E</key>
+		<string>../../..</string>
 		<key>D04EA92893D1085C4168AA70027131ADED4B5CD8</key>
 		<string>../..</string>
 	</dict>
@@ -28,6 +32,14 @@
 	<string>D04EA92893D1085C4168AA70027131ADED4B5CD8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C9DBFC9E4581C0FAD79F2D88683BD245CD8E530E</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

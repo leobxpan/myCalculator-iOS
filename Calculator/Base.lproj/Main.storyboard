@@ -224,7 +224,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Ordinary Calculator" image="daiDaiShou_30*30" id="frm-d2-HYd"/>
+                    <tabBarItem key="tabBarItem" title="Ordinary Calculator" image="daiDaiShou" id="frm-d2-HYd"/>
                     <navigationItem key="navigationItem" title="Basic calculator" id="I5o-rF-KoD"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
@@ -437,7 +437,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="One-line Calculator" id="woH-Oa-usB"/>
+                    <tabBarItem key="tabBarItem" title="One-line Calculator" image="keDaYa" id="woH-Oa-usB"/>
                     <navigationItem key="navigationItem" title="One-line calculator" id="ly9-gM-vxM"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
@@ -450,6 +450,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="daiDaiShou_30*30" width="33" height="30"/>
+        <image name="daiDaiShou" width="30" height="28"/>
+        <image name="keDaYa" width="44" height="30"/>
     </resources>
 </document>

@@ -88,11 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				3998F2821A88C2F1007C0CAF /* Model */,
-				3998F2831A88C802007C0CAF /* OrdinaryCalculatorViewController.h */,
-				398350581A7E11C50018213F /* OrdinaryCalculatorViewController.m */,
-				39667DF91A8B57E6004EF3EF /* OneLineCalculatorViewController.h */,
-				39667DFA1A8B57E6004EF3EF /* OneLineCalculatorViewController.m */,
-				3983505A1A7E11C50018213F /* Main.storyboard */,
+				39C7F1D71AA143A9001FC5E3 /* Controller */,
+				39C7F1D81AA143B2001FC5E3 /* View */,
 				398350501A7E11C50018213F /* Supporting Files */,
 			);
 			path = Calculator;
@@ -135,6 +132,25 @@
 				3998F2801A88C2E4007C0CAF /* Calculator.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		39C7F1D71AA143A9001FC5E3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3998F2831A88C802007C0CAF /* OrdinaryCalculatorViewController.h */,
+				398350581A7E11C50018213F /* OrdinaryCalculatorViewController.m */,
+				39667DF91A8B57E6004EF3EF /* OneLineCalculatorViewController.h */,
+				39667DFA1A8B57E6004EF3EF /* OneLineCalculatorViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		39C7F1D81AA143B2001FC5E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3983505A1A7E11C50018213F /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
